@@ -32,7 +32,6 @@ This is a basic code to predict grain weight from grain area:
 
 ``` r
 predicted_gw=kimindex(data, "grain_area", remove_na= TRUE)
-*remove_na= TRUE: excluding missing values / remove_na= FALSE: including missing values
 
 ■ remove_na= TRUE: excluding missing values
 ■ remove_na= FALSE: including missing values

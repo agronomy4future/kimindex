@@ -7,7 +7,7 @@
 
 The goal of kimindex package is to predict grain weight (mg) from area (mm2) in bread wheat.
 
-□ Code summary: https://github.com/agronomy4future/r_code/blob/main/Probability_Distribution_and_Z_Score_Calculation_Function_feat_probdistz.ipynb
+□ Code summary: https://github.com/agronomy4future/r_code/blob/main/Prediction_of_Grain_Weight_and_Area_in_Bread_Wheat_(feat_kimindex).ipynb
 
 □ Code explained: https://agronomy4future.org/archives/23118
 
@@ -68,20 +68,6 @@ head(predicted_gw,5)
 3           41.78           16.7     41.11362
 4           53.42           20.3     53.19793
 5           44.40           17.5     43.73310
-.
-.
-.
-
-# to predict grain area from weight
-predicted_area= kimindex1(df, "grain_weight_mg", remove_na= TRUE)
-
-head(predicted_area,5)
-  grain_weight_mg grain_area_mm2 predicted_area
-1           49.08           18.6       19.09802
-2           45.43           18.3       18.01203
-3           41.78           16.7       16.90466
-4           53.42           20.3       20.36416
-5           44.40           17.5       17.70180
 .
 .
 .

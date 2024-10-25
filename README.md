@@ -13,7 +13,7 @@ The goal of kimindex package is to predict grain weight (mg) from area (mm2) in 
 
 ## Installation
 
-You can install the development version of fwrmodel like so:
+You can install the development version of kimindex like so:
 
 Before installing, please download Rtools (https://cran.r-project.org/bin/windows/Rtools)
 
